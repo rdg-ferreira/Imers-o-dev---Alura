@@ -37,10 +37,10 @@ body {
   }
 
   .btn {
-    width: 20%;
     padding: 10px 25px;
+    width: 30%;
     background-color: #FADA06;
-    font-size: 25px;
+    font-size: 20px;
     color: #060555;
     font-weight: bold;
     border: none;
