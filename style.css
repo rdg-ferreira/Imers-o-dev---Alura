@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-position: center bottom;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 150vh;
+  }
+  
+  .page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+  }
+
+  .flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 50px 0px;
+  }
+
+  .input-padrao {
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 30%;
+    border-radius: 15px;
+  }
+
+  .btn {
+    width: 20%;
+    padding: 10px 25px;
+    background-color: #FADA06;
+    font-size: 25px;
+    color: #060555;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+  }
+
+  .btn:hover {
+      background-color: goldenrod;
+      transform: scale(1.1);
+
+  }
+
+    
+/* Imagem calculadora SVG */
+ .bg {
+    margin-top: 50px;
+  }
+
+.resultado {
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
